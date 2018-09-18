@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('gallery.css');
+@import url('skills.css');
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -36,7 +37,6 @@ header .content {
 
 section{
     width: 100%;
-    margin-bottom: 25px;
 }
 /* Menu  movile*/
 #menu-bar {
@@ -103,6 +103,13 @@ header label {
     background: rgba(26, 26, 26, 0.5);
 
 }
+#profile a{
+    padding: 5px;
+ text-decoration: none;
+ color: #fff;
+ border: solid #fff;
+
+}
 #profile img{
     width: 200px;
     height: 180px;
@@ -112,11 +119,10 @@ header label {
 #profile h2{
 font-size: 20px;
 color: #fff;
+
 }
 /* project */
-#project a{
-    color: black;
-}
+
 /* footer */
 footer {
     bottom: 0;

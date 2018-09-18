@@ -1,0 +1,10 @@
+#skills{
+    text-align: center;
+    background: #333;
+}
+#skills img{
+    
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+}
