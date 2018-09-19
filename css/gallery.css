@@ -1,10 +1,8 @@
-
 #gallery {
     text-align: center;
     text-decoration: none;
     margin-top: 25px;
     margin-bottom: 25px
-
 }
 
 #gallery a {
@@ -21,7 +19,8 @@
 #next {
     padding: 10px
 }
-#gallery input{
+
+#gallery h2 {
     cursor: pointer;
     padding: 10px;
     color: #fff;
@@ -30,20 +29,31 @@
     background: #333;
 
 }
-#gallery p{
+
+#gallery p {
     padding: 10px;
 }
-#gallery input{
+
+#gallery input {
     font-size: 20px;
     padding: 10px;
- 
+
 }
-.hide{
+
+.hide {
     display: none;
 }
-#info{
+
+#info {
     background: rgba(26, 26, 26, 0.5);
     color: #fff;
     padding: 8px;
 
+}
+
+.carrusel p {
+    cursor: pointer;
+    font-size: 25px;
+    color: #333;
+    display: inline;
 }

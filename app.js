@@ -1,5 +1,6 @@
 const image = document.getElementById('mainImage');
 const btnNext = document.getElementById('next');
+const btnAfter = document.getElementById('after');
 const link = document.getElementById('link');
 const info = document.getElementById('info')
 const infotext = document.getElementById('text');
@@ -14,13 +15,25 @@ btnNext.addEventListener('click', () => {
     image.setAttribute('src', arrayimg[acum]);
     image.setAttribute('alt', arrayimg[acum]);
     link.setAttribute('href', arraylink[acum]);
-    namedescription.setAttribute('value', arraynamedesc[acum]);
+    namedescription.innerHTML= arraynamedesc[acum];
     infotext.innerHTML = arrayinfotext[acum];
     acum++
     if (acum > 2) {
         acum = 0;
     }
 });
+btnAfter.addEventListener('click', () => {
+    image.setAttribute('src', arrayimg[acum]);
+    image.setAttribute('alt', arrayimg[acum]);
+    link.setAttribute('href', arraylink[acum]);
+    namedescription.innerHTML= arraynamedesc[acum];
+    infotext.innerHTML = arrayinfotext[acum];
+    acum++
+    if (acum > 2) {
+        acum = 0;
+    }
+});
+
 // informacion de proyectos
 namedescription.addEventListener('click', () => {
     if (info.hasAttribute('class')) {
