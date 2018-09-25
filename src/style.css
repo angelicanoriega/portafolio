@@ -1,0 +1,12 @@
+.slider {
+    background: url('/imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+@media(max-width:700px) {
+    .movile {
+        display: none;
+    }
+}
