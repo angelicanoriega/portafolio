@@ -5,12 +5,14 @@
     height: 700px;
 }
 #icon .row div  a {
+    min-width:88px;
     text-decoration: none;
     border-radius: 50%;
     color: white;
     }
 
 #skills  .row div  a {
+    min-width:88px;
     border-radius: 50%;
 }
 
