@@ -4,9 +4,26 @@
     background-position: center;
     height: 700px;
 }
-.hover:hover{
-    color: blue;
+#icon .row div  a {
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    }
+
+#skills  .row div  a {
+    border-radius: 50%;
 }
+
+
+#icon .row div:hover a {
+background:white;
+color: rgba(0, 0, 0, 0.7);
+}
+
+#skills .row div:hover a {
+    background:white;
+    color: rgba(0, 0, 0, 0.7);
+    }
 @media(max-width:700px) {
     .movile {
         display: none;
