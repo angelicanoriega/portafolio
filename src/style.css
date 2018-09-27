@@ -4,7 +4,9 @@
     background-position: center;
     height: 700px;
 }
-
+.hover:hover{
+    color: blue;
+}
 @media(max-width:700px) {
     .movile {
         display: none;
