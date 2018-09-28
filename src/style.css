@@ -22,9 +22,6 @@
     border-radius: 50%;
 }
 
-/* #img .row div{
-background: rgba(0, 0, 0, 0.3)}  */
-
 #icon .row div:hover a {
     background: white;
     color: rgba(0, 0, 0, 0.7);
