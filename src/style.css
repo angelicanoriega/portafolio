@@ -33,32 +33,31 @@
 }
 
 #Responsabilidad:hover a {
-    border: solid 5px rgba(0, 164, 33, 0.7);
+    /* border: solid 5px rgba(0, 164, 33, 0.7); */
     background: white;
     color: rgba(244, 97, 6, 0.7);
 }
 
 #Autoaprendizaje:hover a{
-    border: solid 5px rgba(172, 18, 18, 0.7);
+    /* border: solid 5px rgba(172, 18, 18, 0.7); */
     background: white;
     color: rgba(147, 8, 114, 0.7);  
 }
 #Empatía:hover a {
-    border: solid 5px rgba(6, 10, 116, 0.7);
+    /* border: solid 5px rgba(6, 10, 116, 0.7); */
     background: white;
     color: rgb(255, 247, 1);
 }
 
 #trabajoenEquipo:hover a {
-    min-height: 108px;
-    padding-top: 5px;
-    border: solid 5px rgba(18, 162, 177, 0.7);
+
+    /* border: solid 5px rgba(18, 162, 177, 0.7); */
     background: white;
-    color: rgba(244, 97, 6, 0.7);
+    color: rgba(18, 162, 177, 0.7);
 }
 #Adaptabilidad:hover a {
     
-    border: solid 5px rgb(255, 247, 1);;
+    /* border: solid 5px rgb(255, 247, 1);; */
     background: white;
     color: rgba(0, 164, 33, 0.7);
 }
