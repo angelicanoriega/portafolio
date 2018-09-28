@@ -4,30 +4,53 @@
     background-position: center;
     height: 700px;
 }
-#icon .row div  a {
-    min-width:88px;
+
+#icon .row div a {
+    min-width: 88px;
     text-decoration: none;
     border-radius: 50%;
     color: white;
-    }
+}
 
-#skills  .row div  a {
-    min-width:88px;
+#skills .row div a {
+    min-width: 88px;
     border-radius: 50%;
 }
-/* #img .row div a img{
-    height: 50vh;
-}  */
+
+#skills-two .row div a {
+    min-width: 88px;
+    border-radius: 50%;
+}
+
+/* #img .row div{
+background: rgba(0, 0, 0, 0.3)}  */
 
 #icon .row div:hover a {
-background:white;
-color: rgba(0, 0, 0, 0.7);
+    background: white;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 #skills .row div:hover a {
-    background:white;
+    background: white;
     color: rgba(0, 0, 0, 0.7);
-    }
+}
+
+#Responsabilidad:hover a {
+    border: solid 5px rgba(0, 164, 33, 0.7);
+    background: white;
+    color: rgba(244, 97, 6, 0.7);
+}
+
+#Autoaprendizaje:hover a{
+    border: solid 5px rgba(172, 18, 18, 0.7);
+    background: white;
+    color: rgba(154, 19, 122, 0.7);  
+}
+#Empatía:hover a {
+    border: solid 5px rgba(6, 10, 116, 0.7);
+    background: white;
+    color: rgb(255, 247, 1);
+}
 @media(max-width:700px) {
     .movile {
         display: none;
