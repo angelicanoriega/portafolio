@@ -62,6 +62,10 @@
     background: white;
     color: rgba(0, 164, 33, 0.7);
 }
+div  #other a{
+text-decoration: none;
+}
+
 @media(max-width:700px) {
     .movile {
         display: none;
