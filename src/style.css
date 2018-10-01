@@ -11,7 +11,12 @@
     border-radius: 50%;
     color: white;
 }
-
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu div:hover a{
+    color: black;
+}
 #skills .row div a {
     min-width: 88px;
     border-radius: 50%;
